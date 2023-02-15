@@ -1,6 +1,6 @@
-[![pre-commit](https://github.com/ibm-xaas/ubuntu-to-qcow2/actions/workflows/pre-commit.yml/badge.svg?branch=main)](https://github.com/ibm-xaas/ubuntu-to-qcow2/actions/workflows/pre-commit.yml) [![@seungyeop's Holopin board](https://holopin.me/seungyeop)](https://holopin.io/@seungyeop)
-# ubuntu-to-qcow2
-Retrieve the latest ubuntu (bionic, focal, and jammy) and convert to qcow2 format
+[![pre-commit](https://github.com/ibm-xaas/fedora-to-qcow2/actions/workflows/pre-commit.yml/badge.svg?branch=main)](https://github.com/ibm-xaas/fedora-to-qcow2/actions/workflows/pre-commit.yml)
+# fedora-to-qcow2
+Retrieve fedora 37 and convert to qcow2 format
 
 # Test
 ```
