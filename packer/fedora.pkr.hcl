@@ -24,6 +24,5 @@ source "qemu" "fedora37" {
 }
 
 build {
-  #sources = ["source.qemu.fedora37", "source.qemu.fedora36"]
   sources = ["source.qemu.fedora37"]
 }

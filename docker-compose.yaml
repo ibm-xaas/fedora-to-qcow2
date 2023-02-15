@@ -2,10 +2,10 @@
 # Prerequisite if you want to run TF or CLI:
 #     export IBMCLOUD_API_KEY=<YOURS>   # pragma: allowlist secret
 # Run:
-#   docker-compose run jammy
+#   docker-compose run dev-env
 version: "3.3"
 services:
-  jammy:
+  dev-env:
     privileged: true
     build:
       context: .
@@ -14,9 +14,9 @@ services:
     volumes:
       # For future ssh use in development
       - ~/.ssh:/home/ubuntu/.ssh:ro
-      - .:/jammy
+      - .:/dev-env
       - /var/run/docker.sock:/var/run/docker.sock
       - ~/.gitconfig:/home/ubuntu/.gitconfig:ro
     environment:
       IBMCLOUD_API_KEY: "$IBMCLOUD_API_KEY"
-    working_dir: /jammy
+    working_dir: /dev-env
